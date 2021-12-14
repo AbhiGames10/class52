@@ -1,0 +1,72 @@
+/*h1 {
+    color: blue;
+}
+
+* {
+    border: solid;
+} */
+
+.header {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+p,h2 {
+    text-align: center;
+}
+
+.games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+    background-color: rgb(189, 185, 185);
+}
+
+.header h1 {
+    padding-left: 30px;
+}
+
+.header_tags {
+    margin-right: 30px;
+}
+
+.header_tags a {
+    margin-left: 20px;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: blue;
+}
+
+.grid {
+    position: relative;
+}
+
+.grid p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.grid:hover p {
+    opacity: 1;
+}
+
+.grid:hover img {
+    opacity: 0.33;
+}
